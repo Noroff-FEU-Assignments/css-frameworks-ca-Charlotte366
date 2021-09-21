@@ -7347,5 +7347,59 @@ body {
 
 footer {
   background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--primary-colour) !important;
+}
+
+.card-news h5, .card-news .h5 {
+  color: var(--primary-colour-text);
+  font-size: 20px;
+}
+
+.card-news {
+  background-color: var(--background-white);
+}
+
+.card-news .btn {
+  background: var(--primary-colour);
+  position: relative;
+  width: 100%;
+}
+
+.card-news .btn:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  background: var(--primary-colour-btn);
+  border: var(--primary-colour-border-btn);
+}
+
+.page {
+  background: var(--primary-colour);
+}
+
+.page-link {
+  background: var(--background-white);
+}
+
+h2, .h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 34px;
+  color: var(--primary-colour) !important;
 }
 /*# sourceMappingURL=style.css.map */
