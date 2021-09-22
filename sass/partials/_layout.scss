@@ -1,3 +1,8 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   font-family: "Lato", sans-serif;
   font-size: 16px;
@@ -5,7 +10,7 @@ body {
 }
 
 footer {
-  background-color: #ffffff;
+  background-color: $background-colour;
   display: flex;
   justify-content: space-between;
 }

@@ -13,6 +13,10 @@
 }
 
 .search-form {
+  display: flex;
+}
+
+.search-form {
   button {
     background: $primary-colour !important;
     color: $background-white;
