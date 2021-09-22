@@ -1,14 +1,14 @@
 .card-news h5 {
-  color: var(--primary-colour-text);
+  color: $primary-colour-text;
   font-size: 20px;
 }
 
 .card-news {
-  background-color: var(--background-white);
+  background-color: $background-white;
 }
 
 .card-news .btn {
-  background: var(--primary-colour);
+  background: $primary-colour;
   position: relative;
   width: 100%;
 }
@@ -20,14 +20,14 @@
   top: 0;
   width: 30px;
   height: 100%;
-  background: var(--primary-colour-btn);
-  border: var(--primary-colour-border-btn);
+  background: $primary-colour-btn;
+  border: $primary-colour-border-btn;
 }
 
 .page {
-  background: var(--primary-colour);
+  background: $primary-colour;
 }
 
 .page-link {
-  background: var(--background-white);
+  background: $background-white;
 }
